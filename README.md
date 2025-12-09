@@ -63,6 +63,7 @@ El resultado es un mapa de calor de elevación, donde los colores representan di
 A continuación, se presenta el resultado final del mapa tras su despliegue. Este permite realizar distintos niveles de zoom para explorar con mayor detalle la información geográfica del cantón de **San Ramón**.
 
 ![Resultado final del mapa](/Documentacion/img3.png)
+![Zoom del mapa](/Documentacion/img4.png)
 
 ---
 
