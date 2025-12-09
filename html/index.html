@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Mapa de Costa Rica - San Ramón</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    /* Título superior */
+    #mapTitle {
+      width: 100%;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      text-align: center;
+      padding: 16px 0 12px;
+      border-bottom: 2px solid #5a67d8;
+      z-index: 1000;
+      position: relative;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    #mapTitle h1 {
+      margin: 0;
+      font-size: 26px;
+      font-weight: 600;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+
+    #mapTitle h2 {
+      margin: 6px 0 0;
+      font-size: 16px;
+      font-weight: 400;
+      color: #e0e7ff;
+    }
+
+    /* Mapa ocupa todo lo demás */
+    #map {
+      width: 100%;
+      height: calc(100% - 98px);
+    }
+
+    /* Leyenda de elevación */
+    .legend {
+      background: white;
+      padding: 12px 10px;
+      border-radius: 6px;
+      line-height: 20px;
+      font-size: 13px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      min-width: 160px;
+    }
+
+    .legend b {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 14px;
+      color: #333;
+      border-bottom: 2px solid #667eea;
+      padding-bottom: 4px;
+    }
+
+    .legend i {
+      width: 18px;
+      height: 18px;
+      float: left;
+      margin-right: 8px;
+      opacity: 0.85;
+      border: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .legend-item {
+      margin-bottom: 4px;
+      clear: both;
+    }
+
+    /* Info control */
+    .info {
+      padding: 8px 12px;
+      font-size: 13px;
+      background: white;
+      border-radius: 6px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+
+    .info h4 {
+      margin: 0 0 6px;
+      color: #667eea;
+      font-size: 14px;
+    }
+
+    /* Leaflet controls styling */
+    .leaflet-control-zoom {
+      border: 2px solid rgba(0,0,0,0.2);
+      border-radius: 6px;
+    }
+
+    .leaflet-bar a {
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- TÍTULO SUPERIOR -->
+<div id="mapTitle">
+    <h1>Mapa Topográfico de Costa Rica</h1>
+    <h2>Región de San Ramón - Elevaciones y Topografía</h2>
+</div>
+
+<!-- MAPA FULL SCREEN -->
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+  // Coordenadas del centro aproximado de tu área (San Ramón)
+  var map = L.map('map', {
+    center: [10.21, -84.61],  // Centro aproximado de tu área
+    zoom: 10,
+    minZoom: 8,
+    maxZoom: 14,
+    zoomControl: true
+  });
+
+  // ===== CAPA DE TILES MBTiles =====
+  // Cambia la ruta según donde tengas tu archivo .mbtiles exportado como tiles
+  var topoLayer = L.tileLayer('./tiles/{z}/{x}/{y}', {
+    attribution: 'Mapa topográfico Costa Rica | Datos: INEC',
+    tms: true,  // TMS format (importante para MBTiles)
+    opacity: 1.0
+  }).addTo(map);
+
+  // ===== CONTROL DE INFORMACIÓN =====
+  var info = L.control({position: 'topleft'});
+
+  info.onAdd = function () {
+    this._div = L.DomUtil.create('div', 'info');
+    this.update();
+    return this._div;
+  };
+
+  info.update = function (props) {
+    this._div.innerHTML = '<h4>📍 Información del Mapa</h4>' +
+      '<b>Área:</b> San Ramón, Costa Rica<br>' +
+      '<b>Rango:</b> 145 - 1742 m.s.n.m.<br>' +
+      '<b>Puntos:</b> 146 hitos de elevación';
+  };
+
+  info.addTo(map);
+
+  // ===== LEYENDA DE ELEVACIÓN =====
+  var legend = L.control({ position: "bottomright" });
+
+  legend.onAdd = function () {
+    var div = L.DomUtil.create("div", "legend");
+    div.innerHTML =
+      "<b>Elevación (m.s.n.m.)</b><br>" +
+      '<div class="legend-item"><i style="background:#228B22"></i> 145 - 300 m</div>' +
+      '<div class="legend-item"><i style="background:#32CD32"></i> 300 - 500 m</div>' +
+      '<div class="legend-item"><i style="background:#9ACD32"></i> 500 - 700 m</div>' +
+      '<div class="legend-item"><i style="background:#FFFF00"></i> 700 - 900 m</div>' +
+      '<div class="legend-item"><i style="background:#FFC800"></i> 900 - 1100 m</div>' +
+      '<div class="legend-item"><i style="background:#FFA500"></i> 1100 - 1300 m</div>' +
+      '<div class="legend-item"><i style="background:#CD5C5C"></i> 1300 - 1500 m</div>' +
+      '<div class="legend-item"><i style="background:#B22222"></i> 1500 - 1700 m</div>' +
+      '<div class="legend-item"><i style="background:#8B0000"></i> 1700+ m</div>';
+    return div;
+  };
+  legend.addTo(map);
+
+  // ===== ESCALA DEL MAPA =====
+  L.control.scale({
+    position: 'bottomleft',
+    imperial: false,
+    metric: true
+  }).addTo(map);
+
+  // ===== EVENTOS DEL MAPA =====
+  map.on('zoomend', function() {
+    console.log('Zoom actual: ' + map.getZoom());
+  });
+
+  // Mensaje de bienvenida en consola
+  console.log('Mapa de Costa Rica cargado correctamente');
+  console.log('Área de visualización: San Ramón y alrededores');
+</script>
+
+</body>
+</html>

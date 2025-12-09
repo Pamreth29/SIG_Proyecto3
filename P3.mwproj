@@ -3,6 +3,13 @@
     <XmlGroup>
       <Expanded>true</Expanded>
       <Layers xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:guid>1870c616-1e81-472c-ba5f-1bb2f2842b4f</d4p1:guid>
+        <d4p1:guid>6ee1c95c-089e-4f8c-b77b-7899e343de7d</d4p1:guid>
+        <d4p1:guid>ec8bd2ff-29d9-45ca-9d1f-37349042bbef</d4p1:guid>
+        <d4p1:guid>3db1b50e-3088-4e7f-b60d-5c84c1022cc4</d4p1:guid>
+        <d4p1:guid>a0538a17-6fa5-4102-b830-c5650365d7bd</d4p1:guid>
+        <d4p1:guid>b637115f-4375-4a81-81df-6c5c38339219</d4p1:guid>
+        <d4p1:guid>026aa2e7-1086-4f0f-8624-75dadaec4706</d4p1:guid>
         <d4p1:guid>308b6cab-1ab0-40f4-a350-64cf99ed09b0</d4p1:guid>
         <d4p1:guid>4998553d-f04f-4a9d-ad35-e80e1610ae40</d4p1:guid>
         <d4p1:guid>0e29f7a6-72ac-4eeb-b915-016514d65603</d4p1:guid>
@@ -11,12 +18,6 @@
         <d4p1:guid>fd3374b6-a9a0-4a3a-a096-83f8c9fa55a5</d4p1:guid>
         <d4p1:guid>b2e36a78-9b2b-4c99-aedd-a98094b5f420</d4p1:guid>
         <d4p1:guid>bee5cef1-bd66-4ab3-abd0-c9bb8ca454f3</d4p1:guid>
-        <d4p1:guid>6861cdbc-feb3-4f42-8c3c-28d7f63a90a3</d4p1:guid>
-        <d4p1:guid>47c64272-9115-4e86-a0c3-aee9a3dbc312</d4p1:guid>
-        <d4p1:guid>1d37fe16-af0b-4e6e-b9a2-413a590b6fca</d4p1:guid>
-        <d4p1:guid>2e2086eb-1a8e-40af-a0ea-191ca777d53f</d4p1:guid>
-        <d4p1:guid>02e50bcb-8153-49d3-b2e3-130b1357fb60</d4p1:guid>
-        <d4p1:guid>5fd176de-2cbd-4b21-af53-42e3a05fc3dd</d4p1:guid>
       </Layers>
       <Name>Data Layers</Name>
     </XmlGroup>
@@ -25,12 +26,239 @@
     <XmlLayer>
       <ColorSchemeCaption />
       <CustomObjects />
-      <Expanded>false</Expanded>
+      <Expanded>true</Expanded>
+      <Guid>1870c616-1e81-472c-ba5f-1bb2f2842b4f</Guid>
+      <HideFromLegend>false</HideFromLegend>
+      <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
+        <d4p1:Connection i:nil="true" />
+        <d4p1:Filename>C:\Users\hdani\OneDrive\Escritorio\Harlen\Semestre_2_2025(final)\SIG\SIG_Proyecto3\Geo_CR\geo_provincias.shp</d4p1:Filename>
+        <d4p1:GeometryType>None</d4p1:GeometryType>
+        <d4p1:IdentityType>File</d4p1:IdentityType>
+        <d4p1:Query i:nil="true" />
+        <d4p1:ZValueType>None</d4p1:ZValueType>
+      </Identity>
+      <LayerType>Shapefile</LayerType>
+      <Name>geo_provincias</Name>
+      <OcxLayer>
+        <Layer LayerType="Shapefile" LayerName="geo_provincias" LayerVisible="0" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
+          <ShapefileClass>
+            <DefaultDrawingOptions FillColor="14406363" LineColor="9868950" RotationExpression="" />
+            <ShapefileCategoriesClass ClassificationField="-1" />
+            <LabelsClass Generated="0" Positioning="1" TextRenderingHint="3" />
+            <ChartsClass />
+            <TableClass>
+              <Fields />
+            </TableClass>
+          </ShapefileClass>
+        </Layer>
+      </OcxLayer>
+      <Selected>false</Selected>
+    </XmlLayer>
+    <XmlLayer>
+      <ColorSchemeCaption />
+      <CustomObjects />
+      <Expanded>true</Expanded>
+      <Guid>6ee1c95c-089e-4f8c-b77b-7899e343de7d</Guid>
+      <HideFromLegend>false</HideFromLegend>
+      <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
+        <d4p1:Connection i:nil="true" />
+        <d4p1:Filename>C:\Users\hdani\OneDrive\Escritorio\Harlen\Semestre_2_2025(final)\SIG\SIG_Proyecto3\Geo_CR\geo_distritos.shp</d4p1:Filename>
+        <d4p1:GeometryType>None</d4p1:GeometryType>
+        <d4p1:IdentityType>File</d4p1:IdentityType>
+        <d4p1:Query i:nil="true" />
+        <d4p1:ZValueType>None</d4p1:ZValueType>
+      </Identity>
+      <LayerType>Shapefile</LayerType>
+      <Name>geo_distritos</Name>
+      <OcxLayer>
+        <Layer LayerType="Shapefile" LayerName="geo_distritos" LayerVisible="0" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
+          <ShapefileClass>
+            <DefaultDrawingOptions FillColor="12302819" LineColor="9868950" RotationExpression="" />
+            <ShapefileCategoriesClass ClassificationField="-1" />
+            <LabelsClass Generated="0" Positioning="1" TextRenderingHint="3" />
+            <ChartsClass />
+            <TableClass>
+              <Fields />
+            </TableClass>
+          </ShapefileClass>
+        </Layer>
+      </OcxLayer>
+      <Selected>false</Selected>
+    </XmlLayer>
+    <XmlLayer>
+      <ColorSchemeCaption />
+      <CustomObjects />
+      <Expanded>true</Expanded>
+      <Guid>ec8bd2ff-29d9-45ca-9d1f-37349042bbef</Guid>
+      <HideFromLegend>false</HideFromLegend>
+      <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
+        <d4p1:Connection i:nil="true" />
+        <d4p1:Filename>C:\Users\hdani\OneDrive\Escritorio\Harlen\Semestre_2_2025(final)\SIG\SIG_Proyecto3\Geo_CR\geo_poblados.shp</d4p1:Filename>
+        <d4p1:GeometryType>None</d4p1:GeometryType>
+        <d4p1:IdentityType>File</d4p1:IdentityType>
+        <d4p1:Query i:nil="true" />
+        <d4p1:ZValueType>None</d4p1:ZValueType>
+      </Identity>
+      <LayerType>Shapefile</LayerType>
+      <Name>geo_poblados</Name>
+      <OcxLayer>
+        <Layer LayerType="Shapefile" LayerName="geo_poblados" LayerVisible="0" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
+          <ShapefileClass>
+            <DefaultDrawingOptions FillColor="6320004" LineColor="9868950" RotationExpression="" />
+            <ShapefileCategoriesClass ClassificationField="-1" />
+            <LabelsClass Alignment="5" Generated="0" Positioning="0" TextRenderingHint="3" />
+            <ChartsClass />
+            <TableClass>
+              <Fields />
+            </TableClass>
+          </ShapefileClass>
+        </Layer>
+      </OcxLayer>
+      <Selected>false</Selected>
+    </XmlLayer>
+    <XmlLayer>
+      <ColorSchemeCaption />
+      <CustomObjects />
+      <Expanded>true</Expanded>
+      <Guid>3db1b50e-3088-4e7f-b60d-5c84c1022cc4</Guid>
+      <HideFromLegend>false</HideFromLegend>
+      <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
+        <d4p1:Connection i:nil="true" />
+        <d4p1:Filename>C:\Users\hdani\OneDrive\Escritorio\Harlen\Semestre_2_2025(final)\SIG\SIG_Proyecto3\Geo_CR\geo_carreter.shp</d4p1:Filename>
+        <d4p1:GeometryType>None</d4p1:GeometryType>
+        <d4p1:IdentityType>File</d4p1:IdentityType>
+        <d4p1:Query i:nil="true" />
+        <d4p1:ZValueType>None</d4p1:ZValueType>
+      </Identity>
+      <LayerType>Shapefile</LayerType>
+      <Name>geo_carreter</Name>
+      <OcxLayer>
+        <Layer LayerType="Shapefile" LayerName="geo_carreter" LayerVisible="0" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
+          <ShapefileClass>
+            <DefaultDrawingOptions FillColor="16777215" LineColor="8216697" RotationExpression="" />
+            <ShapefileCategoriesClass ClassificationField="-1" />
+            <LabelsClass Generated="0" Positioning="6" TextRenderingHint="3" />
+            <ChartsClass />
+            <TableClass>
+              <Fields />
+            </TableClass>
+          </ShapefileClass>
+        </Layer>
+      </OcxLayer>
+      <Selected>false</Selected>
+    </XmlLayer>
+    <XmlLayer>
+      <ColorSchemeCaption />
+      <CustomObjects />
+      <Expanded>true</Expanded>
+      <Guid>a0538a17-6fa5-4102-b830-c5650365d7bd</Guid>
+      <HideFromLegend>false</HideFromLegend>
+      <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
+        <d4p1:Connection i:nil="true" />
+        <d4p1:Filename>C:\Users\hdani\OneDrive\Escritorio\Harlen\Semestre_2_2025(final)\SIG\SIG_Proyecto3\Geo_CR\geo_poblprinc.shp</d4p1:Filename>
+        <d4p1:GeometryType>None</d4p1:GeometryType>
+        <d4p1:IdentityType>File</d4p1:IdentityType>
+        <d4p1:Query i:nil="true" />
+        <d4p1:ZValueType>None</d4p1:ZValueType>
+      </Identity>
+      <LayerType>Shapefile</LayerType>
+      <Name>geo_poblprinc</Name>
+      <OcxLayer>
+        <Layer LayerType="Shapefile" LayerName="geo_poblprinc" LayerVisible="0" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
+          <ShapefileClass>
+            <DefaultDrawingOptions FillColor="8554881" LineColor="9868950" RotationExpression="" />
+            <ShapefileCategoriesClass ClassificationField="-1" />
+            <LabelsClass Alignment="5" Generated="0" Positioning="0" TextRenderingHint="3" />
+            <ChartsClass />
+            <TableClass>
+              <Fields />
+            </TableClass>
+          </ShapefileClass>
+        </Layer>
+      </OcxLayer>
+      <Selected>false</Selected>
+    </XmlLayer>
+    <XmlLayer>
+      <ColorSchemeCaption />
+      <CustomObjects />
+      <Expanded>true</Expanded>
+      <Guid>b637115f-4375-4a81-81df-6c5c38339219</Guid>
+      <HideFromLegend>false</HideFromLegend>
+      <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
+        <d4p1:Connection i:nil="true" />
+        <d4p1:Filename>C:\Users\hdani\OneDrive\Escritorio\Harlen\Semestre_2_2025(final)\SIG\SIG_Proyecto3\Geo_CR\geo_rios.shp</d4p1:Filename>
+        <d4p1:GeometryType>None</d4p1:GeometryType>
+        <d4p1:IdentityType>File</d4p1:IdentityType>
+        <d4p1:Query i:nil="true" />
+        <d4p1:ZValueType>None</d4p1:ZValueType>
+      </Identity>
+      <LayerType>Shapefile</LayerType>
+      <Name>geo_rios</Name>
+      <OcxLayer>
+        <Layer LayerType="Shapefile" LayerName="geo_rios" LayerVisible="0" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
+          <ShapefileClass>
+            <DefaultDrawingOptions FillColor="16777215" LineColor="5408660" RotationExpression="" />
+            <ShapefileCategoriesClass ClassificationField="-1" />
+            <LabelsClass Generated="0" Positioning="6" TextRenderingHint="3" />
+            <ChartsClass />
+            <TableClass>
+              <Fields />
+            </TableClass>
+          </ShapefileClass>
+        </Layer>
+      </OcxLayer>
+      <Selected>false</Selected>
+    </XmlLayer>
+    <XmlLayer>
+      <ColorSchemeCaption />
+      <CustomObjects>
+        <XmlCustomObject>
+          <Guid>7b9df651-4b8b-4aa8-a4a9-c1463a35dac7</Guid>
+          <Object>
+            <SymbologyMetadata xmlns="">
+              <ShowLayerPreview>false</ShowLayerPreview>
+              <Initialized>true</Initialized>
+            </SymbologyMetadata>
+          </Object>
+        </XmlCustomObject>
+      </CustomObjects>
+      <Expanded>true</Expanded>
+      <Guid>026aa2e7-1086-4f0f-8624-75dadaec4706</Guid>
+      <HideFromLegend>false</HideFromLegend>
+      <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
+        <d4p1:Connection i:nil="true" />
+        <d4p1:Filename>C:\Users\hdani\OneDrive\Escritorio\Harlen\Semestre_2_2025(final)\SIG\SIG_Proyecto3\Geo_CR\geo_hitos.shp</d4p1:Filename>
+        <d4p1:GeometryType>None</d4p1:GeometryType>
+        <d4p1:IdentityType>File</d4p1:IdentityType>
+        <d4p1:Query i:nil="true" />
+        <d4p1:ZValueType>None</d4p1:ZValueType>
+      </Identity>
+      <LayerType>Shapefile</LayerType>
+      <Name>geo_hitos</Name>
+      <OcxLayer>
+        <Layer LayerType="Shapefile" LayerName="geo_hitos" LayerVisible="0" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
+          <ShapefileClass>
+            <DefaultDrawingOptions FillColor="4082520" LineColor="9868950" RotationExpression="" />
+            <ShapefileCategoriesClass ClassificationField="-1" />
+            <LabelsClass Alignment="5" Generated="0" Positioning="0" TextRenderingHint="3" />
+            <ChartsClass />
+            <TableClass>
+              <Fields />
+            </TableClass>
+          </ShapefileClass>
+        </Layer>
+      </OcxLayer>
+      <Selected>false</Selected>
+    </XmlLayer>
+    <XmlLayer>
+      <ColorSchemeCaption />
+      <CustomObjects />
+      <Expanded>true</Expanded>
       <Guid>308b6cab-1ab0-40f4-a350-64cf99ed09b0</Guid>
       <HideFromLegend>false</HideFromLegend>
       <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
         <d4p1:Connection i:nil="true" />
-        <d4p1:Filename>C:\Users\pamre\Documents\GitHub\SIG_Proyecto3\Geo_CR\geo_cantones.shp</d4p1:Filename>
+        <d4p1:Filename>C:\Users\hdani\OneDrive\Escritorio\Harlen\Semestre_2_2025(final)\SIG\SIG_Proyecto3\Geo_CR\geo_cantones.shp</d4p1:Filename>
         <d4p1:GeometryType>None</d4p1:GeometryType>
         <d4p1:IdentityType>File</d4p1:IdentityType>
         <d4p1:Query i:nil="true" />
@@ -39,9 +267,9 @@
       <LayerType>Shapefile</LayerType>
       <Name>geo_cantones</Name>
       <OcxLayer>
-        <Layer LayerType="Shapefile" LayerName="geo_cantones" LayerVisible="1" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
+        <Layer LayerType="Shapefile" LayerName="geo_cantones" LayerVisible="0" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
           <ShapefileClass>
-            <DefaultDrawingOptions FillColor="14204867" LineColor="9868950" />
+            <DefaultDrawingOptions FillColor="14204867" LineColor="9868950" RotationExpression="" />
             <ShapefileCategoriesClass ClassificationField="-1" />
             <LabelsClass Generated="0" Positioning="1" TextRenderingHint="3" />
             <ChartsClass />
@@ -56,22 +284,13 @@
     </XmlLayer>
     <XmlLayer>
       <ColorSchemeCaption />
-      <CustomObjects>
-        <XmlCustomObject>
-          <Guid>7b9df651-4b8b-4aa8-a4a9-c1463a35dac7</Guid>
-          <Object>
-            <SymbologyMetadata xmlns="">
-              <Initialized>true</Initialized>
-            </SymbologyMetadata>
-          </Object>
-        </XmlCustomObject>
-      </CustomObjects>
-      <Expanded>false</Expanded>
+      <CustomObjects />
+      <Expanded>true</Expanded>
       <Guid>4998553d-f04f-4a9d-ad35-e80e1610ae40</Guid>
       <HideFromLegend>false</HideFromLegend>
       <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
         <d4p1:Connection i:nil="true" />
-        <d4p1:Filename>C:\Users\pamre\Documents\GitHub\SIG_Proyecto3\DATA\provincia_SR.shp</d4p1:Filename>
+        <d4p1:Filename>C:\Users\hdani\OneDrive\Escritorio\Harlen\Semestre_2_2025(final)\SIG\SIG_Proyecto3\DATA\provincia_SR.shp</d4p1:Filename>
         <d4p1:GeometryType>None</d4p1:GeometryType>
         <d4p1:IdentityType>File</d4p1:IdentityType>
         <d4p1:Query i:nil="true" />
@@ -82,7 +301,7 @@
       <OcxLayer>
         <Layer LayerType="Shapefile" LayerName="provincia_SR" LayerVisible="1" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
           <ShapefileClass>
-            <DefaultDrawingOptions FillColor="4368922" LineColor="9868950" />
+            <DefaultDrawingOptions FillColor="13220020" LineColor="9868950" RotationExpression="" />
             <ShapefileCategoriesClass ClassificationField="-1" />
             <LabelsClass Generated="0" Positioning="1" TextRenderingHint="3" />
             <ChartsClass />
@@ -96,22 +315,13 @@
     </XmlLayer>
     <XmlLayer>
       <ColorSchemeCaption />
-      <CustomObjects>
-        <XmlCustomObject>
-          <Guid>7b9df651-4b8b-4aa8-a4a9-c1463a35dac7</Guid>
-          <Object>
-            <SymbologyMetadata xmlns="">
-              <Initialized>true</Initialized>
-            </SymbologyMetadata>
-          </Object>
-        </XmlCustomObject>
-      </CustomObjects>
-      <Expanded>false</Expanded>
+      <CustomObjects />
+      <Expanded>true</Expanded>
       <Guid>0e29f7a6-72ac-4eeb-b915-016514d65603</Guid>
       <HideFromLegend>false</HideFromLegend>
       <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
         <d4p1:Connection i:nil="true" />
-        <d4p1:Filename>C:\Users\pamre\Documents\GitHub\SIG_Proyecto3\DATA\distritos_SR.shp</d4p1:Filename>
+        <d4p1:Filename>C:\Users\hdani\OneDrive\Escritorio\Harlen\Semestre_2_2025(final)\SIG\SIG_Proyecto3\DATA\distritos_SR.shp</d4p1:Filename>
         <d4p1:GeometryType>None</d4p1:GeometryType>
         <d4p1:IdentityType>File</d4p1:IdentityType>
         <d4p1:Query i:nil="true" />
@@ -122,7 +332,7 @@
       <OcxLayer>
         <Layer LayerType="Shapefile" LayerName="distritos_SR" LayerVisible="1" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
           <ShapefileClass>
-            <DefaultDrawingOptions FillColor="4380310" LineColor="9868950" />
+            <DefaultDrawingOptions FillColor="12831460" LineColor="9868950" RotationExpression="" />
             <ShapefileCategoriesClass ClassificationField="-1" />
             <LabelsClass Generated="0" Positioning="1" TextRenderingHint="3" />
             <ChartsClass />
@@ -137,12 +347,12 @@
     <XmlLayer>
       <ColorSchemeCaption />
       <CustomObjects />
-      <Expanded>false</Expanded>
+      <Expanded>true</Expanded>
       <Guid>6f7377f6-078f-487e-9969-41710367f1dc</Guid>
       <HideFromLegend>false</HideFromLegend>
       <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
         <d4p1:Connection i:nil="true" />
-        <d4p1:Filename>C:\Users\pamre\Documents\GitHub\SIG_Proyecto3\DATA\poblados_SR.shp</d4p1:Filename>
+        <d4p1:Filename>C:\Users\hdani\OneDrive\Escritorio\Harlen\Semestre_2_2025(final)\SIG\SIG_Proyecto3\DATA\poblados_SR.shp</d4p1:Filename>
         <d4p1:GeometryType>None</d4p1:GeometryType>
         <d4p1:IdentityType>File</d4p1:IdentityType>
         <d4p1:Query i:nil="true" />
@@ -153,7 +363,7 @@
       <OcxLayer>
         <Layer LayerType="Shapefile" LayerName="poblados_SR" LayerVisible="1" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
           <ShapefileClass>
-            <DefaultDrawingOptions FillColor="1971946" LineColor="9868950" />
+            <DefaultDrawingOptions FillColor="6716788" LineColor="9868950" RotationExpression="" />
             <ShapefileCategoriesClass ClassificationField="-1" />
             <LabelsClass Alignment="5" Generated="0" Positioning="0" TextRenderingHint="3" />
             <ChartsClass />
@@ -168,12 +378,12 @@
     <XmlLayer>
       <ColorSchemeCaption />
       <CustomObjects />
-      <Expanded>false</Expanded>
+      <Expanded>true</Expanded>
       <Guid>a66a27d3-9093-4c10-8c31-3f36bae9afe0</Guid>
       <HideFromLegend>false</HideFromLegend>
       <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
         <d4p1:Connection i:nil="true" />
-        <d4p1:Filename>C:\Users\pamre\Documents\GitHub\SIG_Proyecto3\DATA\carreter_SR.shp</d4p1:Filename>
+        <d4p1:Filename>C:\Users\hdani\OneDrive\Escritorio\Harlen\Semestre_2_2025(final)\SIG\SIG_Proyecto3\DATA\carreter_SR.shp</d4p1:Filename>
         <d4p1:GeometryType>None</d4p1:GeometryType>
         <d4p1:IdentityType>File</d4p1:IdentityType>
         <d4p1:Query i:nil="true" />
@@ -184,13 +394,7 @@
       <OcxLayer>
         <Layer LayerType="Shapefile" LayerName="carreter_SR" LayerVisible="1" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
           <ShapefileClass>
-            <DefaultDrawingOptions FillColor="16777215" LineColor="6843235">
-              <LinePatternClass Key="" Transparency="255">
-                <LineSegments>
-                  <LineSegmentClass LineType="0" Color="6843235" MarkerOutlineColor="7895160" LineWidth="1.000000" MarkerSize="12.000000" MarkerInterval="16.000000" MarkerOffset="0.000000" LineStyle="0" Marker="2" MarkerOrientation="1" MarkerFlipFirst="-1" />
-                </LineSegments>
-              </LinePatternClass>
-            </DefaultDrawingOptions>
+            <DefaultDrawingOptions FillColor="16777215" LineColor="6843235" RotationExpression="" />
             <ShapefileCategoriesClass ClassificationField="-1" />
             <LabelsClass Generated="0" Positioning="6" TextRenderingHint="3" />
             <ChartsClass />
@@ -205,12 +409,12 @@
     <XmlLayer>
       <ColorSchemeCaption />
       <CustomObjects />
-      <Expanded>false</Expanded>
+      <Expanded>true</Expanded>
       <Guid>fd3374b6-a9a0-4a3a-a096-83f8c9fa55a5</Guid>
       <HideFromLegend>false</HideFromLegend>
       <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
         <d4p1:Connection i:nil="true" />
-        <d4p1:Filename>C:\Users\pamre\Documents\GitHub\SIG_Proyecto3\DATA\poblprinc_SR.shp</d4p1:Filename>
+        <d4p1:Filename>C:\Users\hdani\OneDrive\Escritorio\Harlen\Semestre_2_2025(final)\SIG\SIG_Proyecto3\DATA\poblprinc_SR.shp</d4p1:Filename>
         <d4p1:GeometryType>None</d4p1:GeometryType>
         <d4p1:IdentityType>File</d4p1:IdentityType>
         <d4p1:Query i:nil="true" />
@@ -221,7 +425,7 @@
       <OcxLayer>
         <Layer LayerType="Shapefile" LayerName="poblprinc_SR" LayerVisible="1" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
           <ShapefileClass>
-            <DefaultDrawingOptions FillColor="703230" LineColor="9868950" />
+            <DefaultDrawingOptions FillColor="6383468" LineColor="9868950" RotationExpression="" />
             <ShapefileCategoriesClass ClassificationField="-1" />
             <LabelsClass Alignment="5" Generated="0" Positioning="0" TextRenderingHint="3" />
             <ChartsClass />
@@ -236,12 +440,12 @@
     <XmlLayer>
       <ColorSchemeCaption />
       <CustomObjects />
-      <Expanded>false</Expanded>
+      <Expanded>true</Expanded>
       <Guid>b2e36a78-9b2b-4c99-aedd-a98094b5f420</Guid>
       <HideFromLegend>false</HideFromLegend>
       <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
         <d4p1:Connection i:nil="true" />
-        <d4p1:Filename>C:\Users\pamre\Documents\GitHub\SIG_Proyecto3\DATA\rios_SR.shp</d4p1:Filename>
+        <d4p1:Filename>C:\Users\hdani\OneDrive\Escritorio\Harlen\Semestre_2_2025(final)\SIG\SIG_Proyecto3\DATA\rios_SR.shp</d4p1:Filename>
         <d4p1:GeometryType>None</d4p1:GeometryType>
         <d4p1:IdentityType>File</d4p1:IdentityType>
         <d4p1:Query i:nil="true" />
@@ -252,13 +456,7 @@
       <OcxLayer>
         <Layer LayerType="Shapefile" LayerName="rios_SR" LayerVisible="1" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
           <ShapefileClass>
-            <DefaultDrawingOptions FillColor="16777215" LineColor="15643138">
-              <LinePatternClass Key="" Transparency="255">
-                <LineSegments>
-                  <LineSegmentClass LineType="0" Color="15643138" MarkerOutlineColor="7895160" LineWidth="1.000000" MarkerSize="12.000000" MarkerInterval="16.000000" MarkerOffset="0.000000" LineStyle="0" Marker="2" MarkerOrientation="1" MarkerFlipFirst="-1" />
-                </LineSegments>
-              </LinePatternClass>
-            </DefaultDrawingOptions>
+            <DefaultDrawingOptions FillColor="16777215" LineColor="7622537" RotationExpression="" />
             <ShapefileCategoriesClass ClassificationField="-1" />
             <LabelsClass Generated="0" Positioning="6" TextRenderingHint="3" />
             <ChartsClass />
@@ -282,12 +480,12 @@
           </Object>
         </XmlCustomObject>
       </CustomObjects>
-      <Expanded>false</Expanded>
+      <Expanded>true</Expanded>
       <Guid>bee5cef1-bd66-4ab3-abd0-c9bb8ca454f3</Guid>
       <HideFromLegend>false</HideFromLegend>
       <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
         <d4p1:Connection i:nil="true" />
-        <d4p1:Filename>C:\Users\pamre\Documents\GitHub\SIG_Proyecto3\DATA\hitos_SR.shp</d4p1:Filename>
+        <d4p1:Filename>C:\Users\hdani\OneDrive\Escritorio\Harlen\Semestre_2_2025(final)\SIG\SIG_Proyecto3\DATA\hitos_SR.shp</d4p1:Filename>
         <d4p1:GeometryType>None</d4p1:GeometryType>
         <d4p1:IdentityType>File</d4p1:IdentityType>
         <d4p1:Query i:nil="true" />
@@ -298,193 +496,7 @@
       <OcxLayer>
         <Layer LayerType="Shapefile" LayerName="hitos_SR" LayerVisible="1" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
           <ShapefileClass>
-            <DefaultDrawingOptions FillColor="65535" LineColor="9868950" />
-            <ShapefileCategoriesClass ClassificationField="-1" />
-            <LabelsClass Alignment="5" Generated="0" Positioning="0" TextRenderingHint="3" />
-            <ChartsClass />
-            <TableClass>
-              <Fields />
-            </TableClass>
-          </ShapefileClass>
-        </Layer>
-      </OcxLayer>
-      <Selected>false</Selected>
-    </XmlLayer>
-    <XmlLayer>
-      <ColorSchemeCaption />
-      <CustomObjects />
-      <Expanded>true</Expanded>
-      <Guid>6861cdbc-feb3-4f42-8c3c-28d7f63a90a3</Guid>
-      <HideFromLegend>false</HideFromLegend>
-      <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
-        <d4p1:Connection i:nil="true" />
-        <d4p1:Filename>C:\Users\pamre\Documents\GitHub\SIG_Proyecto3\DATA\AgenciaBancos_SR.shp</d4p1:Filename>
-        <d4p1:GeometryType>None</d4p1:GeometryType>
-        <d4p1:IdentityType>File</d4p1:IdentityType>
-        <d4p1:Query i:nil="true" />
-        <d4p1:ZValueType>None</d4p1:ZValueType>
-      </Identity>
-      <LayerType>Shapefile</LayerType>
-      <Name>AgenciaBancos_SR</Name>
-      <OcxLayer>
-        <Layer LayerType="Shapefile" LayerName="AgenciaBancos_SR" LayerVisible="1" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
-          <ShapefileClass>
-            <DefaultDrawingOptions FillColor="7239549" LineColor="9868950" />
-            <ShapefileCategoriesClass ClassificationField="-1" />
-            <LabelsClass Alignment="5" Generated="0" Positioning="0" TextRenderingHint="3" />
-            <ChartsClass />
-            <TableClass>
-              <Fields />
-            </TableClass>
-          </ShapefileClass>
-        </Layer>
-      </OcxLayer>
-      <Selected>false</Selected>
-    </XmlLayer>
-    <XmlLayer>
-      <ColorSchemeCaption />
-      <CustomObjects />
-      <Expanded>true</Expanded>
-      <Guid>47c64272-9115-4e86-a0c3-aee9a3dbc312</Guid>
-      <HideFromLegend>false</HideFromLegend>
-      <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
-        <d4p1:Connection i:nil="true" />
-        <d4p1:Filename>C:\Users\pamre\Documents\GitHub\SIG_Proyecto3\DATA\Hoteles_SR.shp</d4p1:Filename>
-        <d4p1:GeometryType>None</d4p1:GeometryType>
-        <d4p1:IdentityType>File</d4p1:IdentityType>
-        <d4p1:Query i:nil="true" />
-        <d4p1:ZValueType>None</d4p1:ZValueType>
-      </Identity>
-      <LayerType>Shapefile</LayerType>
-      <Name>Hoteles_SR</Name>
-      <OcxLayer>
-        <Layer LayerType="Shapefile" LayerName="Hoteles_SR" LayerVisible="1" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
-          <ShapefileClass>
-            <DefaultDrawingOptions FillColor="8402032" LineColor="9868950" />
-            <ShapefileCategoriesClass ClassificationField="-1" />
-            <LabelsClass Alignment="5" Generated="0" Positioning="0" TextRenderingHint="3" />
-            <ChartsClass />
-            <TableClass>
-              <Fields />
-            </TableClass>
-          </ShapefileClass>
-        </Layer>
-      </OcxLayer>
-      <Selected>false</Selected>
-    </XmlLayer>
-    <XmlLayer>
-      <ColorSchemeCaption />
-      <CustomObjects />
-      <Expanded>true</Expanded>
-      <Guid>1d37fe16-af0b-4e6e-b9a2-413a590b6fca</Guid>
-      <HideFromLegend>false</HideFromLegend>
-      <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
-        <d4p1:Connection i:nil="true" />
-        <d4p1:Filename>C:\Users\pamre\Documents\GitHub\SIG_Proyecto3\DATA\Clinicas_SR.shp</d4p1:Filename>
-        <d4p1:GeometryType>None</d4p1:GeometryType>
-        <d4p1:IdentityType>File</d4p1:IdentityType>
-        <d4p1:Query i:nil="true" />
-        <d4p1:ZValueType>None</d4p1:ZValueType>
-      </Identity>
-      <LayerType>Shapefile</LayerType>
-      <Name>Clinicas_SR</Name>
-      <OcxLayer>
-        <Layer LayerType="Shapefile" LayerName="Clinicas_SR" LayerVisible="1" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
-          <ShapefileClass>
-            <DefaultDrawingOptions FillColor="8155283" LineColor="9868950" />
-            <ShapefileCategoriesClass ClassificationField="-1" />
-            <LabelsClass Alignment="5" Generated="0" Positioning="0" TextRenderingHint="3" />
-            <ChartsClass />
-            <TableClass>
-              <Fields />
-            </TableClass>
-          </ShapefileClass>
-        </Layer>
-      </OcxLayer>
-      <Selected>false</Selected>
-    </XmlLayer>
-    <XmlLayer>
-      <ColorSchemeCaption />
-      <CustomObjects />
-      <Expanded>true</Expanded>
-      <Guid>2e2086eb-1a8e-40af-a0ea-191ca777d53f</Guid>
-      <HideFromLegend>false</HideFromLegend>
-      <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
-        <d4p1:Connection i:nil="true" />
-        <d4p1:Filename>C:\Users\pamre\Documents\GitHub\SIG_Proyecto3\DATA\EscuelasDiurnas_SR.shp</d4p1:Filename>
-        <d4p1:GeometryType>None</d4p1:GeometryType>
-        <d4p1:IdentityType>File</d4p1:IdentityType>
-        <d4p1:Query i:nil="true" />
-        <d4p1:ZValueType>None</d4p1:ZValueType>
-      </Identity>
-      <LayerType>Shapefile</LayerType>
-      <Name>EscuelasDiurnas_SR</Name>
-      <OcxLayer>
-        <Layer LayerType="Shapefile" LayerName="EscuelasDiurnas_SR" LayerVisible="1" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
-          <ShapefileClass>
-            <DefaultDrawingOptions FillColor="6632028" LineColor="9868950" />
-            <ShapefileCategoriesClass ClassificationField="-1" />
-            <LabelsClass Alignment="5" Generated="0" Positioning="0" TextRenderingHint="3" />
-            <ChartsClass />
-            <TableClass>
-              <Fields />
-            </TableClass>
-          </ShapefileClass>
-        </Layer>
-      </OcxLayer>
-      <Selected>false</Selected>
-    </XmlLayer>
-    <XmlLayer>
-      <ColorSchemeCaption />
-      <CustomObjects />
-      <Expanded>true</Expanded>
-      <Guid>02e50bcb-8153-49d3-b2e3-130b1357fb60</Guid>
-      <HideFromLegend>false</HideFromLegend>
-      <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
-        <d4p1:Connection i:nil="true" />
-        <d4p1:Filename>C:\Users\pamre\Documents\GitHub\SIG_Proyecto3\DATA\Gasolineras_SR.shp</d4p1:Filename>
-        <d4p1:GeometryType>None</d4p1:GeometryType>
-        <d4p1:IdentityType>File</d4p1:IdentityType>
-        <d4p1:Query i:nil="true" />
-        <d4p1:ZValueType>None</d4p1:ZValueType>
-      </Identity>
-      <LayerType>Shapefile</LayerType>
-      <Name>Gasolineras_SR</Name>
-      <OcxLayer>
-        <Layer LayerType="Shapefile" LayerName="Gasolineras_SR" LayerVisible="1" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
-          <ShapefileClass>
-            <DefaultDrawingOptions FillColor="7359582" LineColor="9868950" />
-            <ShapefileCategoriesClass ClassificationField="-1" />
-            <LabelsClass Alignment="5" Generated="0" Positioning="0" TextRenderingHint="3" />
-            <ChartsClass />
-            <TableClass>
-              <Fields />
-            </TableClass>
-          </ShapefileClass>
-        </Layer>
-      </OcxLayer>
-      <Selected>false</Selected>
-    </XmlLayer>
-    <XmlLayer>
-      <ColorSchemeCaption />
-      <CustomObjects />
-      <Expanded>true</Expanded>
-      <Guid>5fd176de-2cbd-4b21-af53-42e3a05fc3dd</Guid>
-      <HideFromLegend>false</HideFromLegend>
-      <Identity xmlns:d4p1="http://schemas.datacontract.org/2004/07/MW5.Api.Concrete">
-        <d4p1:Connection i:nil="true" />
-        <d4p1:Filename>C:\Users\pamre\Documents\GitHub\SIG_Proyecto3\DATA\Hospitales_SR.shp</d4p1:Filename>
-        <d4p1:GeometryType>None</d4p1:GeometryType>
-        <d4p1:IdentityType>File</d4p1:IdentityType>
-        <d4p1:Query i:nil="true" />
-        <d4p1:ZValueType>None</d4p1:ZValueType>
-      </Identity>
-      <LayerType>Shapefile</LayerType>
-      <Name>Hospitales_SR</Name>
-      <OcxLayer>
-        <Layer LayerType="Shapefile" LayerName="Hospitales_SR" LayerVisible="1" LayerKey="" MaxVisibleZoom="20" Filename="" xmlns="">
-          <ShapefileClass>
-            <DefaultDrawingOptions FillColor="6057068" LineColor="9868950" />
+            <DefaultDrawingOptions FillColor="7899505" LineColor="9868950" RotationExpression="" />
             <ShapefileCategoriesClass ClassificationField="-1" />
             <LabelsClass Alignment="5" Generated="0" Positioning="0" TextRenderingHint="3" />
             <ChartsClass />
@@ -500,49 +512,67 @@
   <Locator i:nil="true" />
   <Map>
     <Envelope>
-      <MaxX>-84.38248856195537</MaxX>
-      <MaxY>10.105900412418702</MaxY>
-      <MinX>-84.531375205113633</MinX>
-      <MinY>10.061373565866697</MinY>
+      <MaxX>-84.085197282066787</MaxX>
+      <MaxY>10.75571234846478</MaxY>
+      <MinX>-85.2998731853871</MinX>
+      <MinY>9.8864191355741546</MinY>
     </Envelope>
     <Projection>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.01745329251994328,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</Projection>
     <TileProviderId>0</TileProviderId>
   </Map>
   <Plugins>
     <XmlPlugin>
-      <Guid>f0cdf80f-5f74-48f6-8c8d-75f9b505eee0</Guid>
-      <Name>Debug Window</Name>
-    </XmlPlugin>
-    <XmlPlugin>
-      <Guid>65beb2fd-eec2-461c-965e-f20a0cef2aa2</Guid>
-      <Name>Identifier</Name>
-    </XmlPlugin>
-    <XmlPlugin>
-      <Guid>16479551-5754-46a1-9243-a3df788e7406</Guid>
-      <Name>Printing Plug-in</Name>
-    </XmlPlugin>
-    <XmlPlugin>
-      <Guid>f24e7086-1762-4a7c-8403-d1169309cbc6</Guid>
-      <Name>Data Repository</Name>
-    </XmlPlugin>
-    <XmlPlugin>
-      <Guid>70120ff9-1c6b-49a1-8949-dded8bcef499</Guid>
-      <Name>Shape Editor</Name>
-    </XmlPlugin>
-    <XmlPlugin>
-      <Guid>7b9df651-4b8b-4aa8-a4a9-c1463a35dac7</Guid>
-      <Name>Symbology Editor</Name>
+      <Guid>f383fe43-0754-4ee2-951c-0066e87b28ab</Guid>
+      <Name>GIS Toolbox</Name>
+      <Settings xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
     </XmlPlugin>
     <XmlPlugin>
       <Guid>894e958f-69dd-48df-b35b-16871ec5d309</Guid>
       <Name>Table Editor</Name>
+      <Settings xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
     </XmlPlugin>
     <XmlPlugin>
-      <Guid>f383fe43-0754-4ee2-951c-0066e87b28ab</Guid>
-      <Name>GIS Toolbox</Name>
+      <Guid>7b9df651-4b8b-4aa8-a4a9-c1463a35dac7</Guid>
+      <Name>Symbology Editor</Name>
+      <Settings xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </XmlPlugin>
+    <XmlPlugin>
+      <Guid>f24e7086-1762-4a7c-8403-d1169309cbc6</Guid>
+      <Name>Data Repository</Name>
+      <Settings xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </XmlPlugin>
+    <XmlPlugin>
+      <Guid>16479551-5754-46a1-9243-a3df788e7406</Guid>
+      <Name>Printing Plug-in</Name>
+      <Settings xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </XmlPlugin>
+    <XmlPlugin>
+      <Guid>65beb2fd-eec2-461c-965e-f20a0cef2aa2</Guid>
+      <Name>Identifier</Name>
+      <Settings xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </XmlPlugin>
+    <XmlPlugin>
+      <Guid>f0cdf80f-5f74-48f6-8c8d-75f9b505eee0</Guid>
+      <Name>Debug Window</Name>
+      <Settings xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </XmlPlugin>
+    <XmlPlugin>
+      <Guid>70120ff9-1c6b-49a1-8949-dded8bcef499</Guid>
+      <Name>Shape Editor</Name>
+      <Settings xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </XmlPlugin>
+    <XmlPlugin>
+      <Guid>1c024132-3f53-40bb-8598-753d63e90412</Guid>
+      <Name>AdvancedSnapping</Name>
+      <Settings xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:KeyValueOfstringstring>
+          <d4p1:Key>AutoClearSnapLines</d4p1:Key>
+          <d4p1:Value>True</d4p1:Value>
+        </d4p1:KeyValueOfstringstring>
+      </Settings>
     </XmlPlugin>
   </Plugins>
   <Settings>
-    <SavedAsFilename>c:\users\pamre\documents\github\sig_proyecto3\p3.mwproj</SavedAsFilename>
+    <SavedAsFilename>C:\Users\hdani\OneDrive\Escritorio\Harlen\Semestre_2_2025(final)\SIG\SIG_Proyecto3\P3.mwproj</SavedAsFilename>
   </Settings>
 </MapWindow5>
