@@ -37,7 +37,7 @@ La idea es que el mapa generado se exporte y se publique en una plataforma de ho
 
 Para el desarrollo del proyecto se realizó un recorte de todos los datos que intersectaban con el cantón de **San Ramón**, ubicado en la provincia de **Alajuela, Costa Rica**. Este proceso incluyó capas como distritos, ríos, carreteras, centros poblados y demás archivos `.shp` contenidos en el paquete `GEO_CR.zip`. De esta manera, se logró un manejo más eficiente y simplificado de la información geoespacial.  
 
-![Imagen de elementos en MapWindows](./img1.png)
+![Imagen de elementos en MapWindows](/Documentacion/img1.png)
 
 Asimismo, a partir de los datos proporcionados por el profesor —hospitales, escuelas diurnas, clínicas, gasolineras, agencias bancarias y hoteles— se llevó a cabo un proceso de **intersección espacial** con el cantón de San Ramón, permitiendo conservar únicamente los datos correspondientes al área de estudio.  
 
@@ -46,14 +46,23 @@ Adicionalmente, mediante la plataforma **OpenStreetMap** se extrajo un archivo `
 ---
 
 ## Explicación de TileMill  
-![Imagen de elementos en TileMill](./img2.png)
-*(Pendiente de completar)*  
+TileMill es una herramienta de cartografía diseñada para crear mapas web interactivos de alta calidad. Funciona importando diferentes capas de información geográfica (shapefiles, rasters, puntos) y permitiendo estilizarlas mediante un lenguaje de estilos similar a CSS llamado CartoCSS. En este proyecto, se utilizó TileMill para combinar el mapa de elevación generado con capas adicionales de información como límites provinciales, distritos, carreteras, ríos, poblados y puntos de interés. 
+
+El proceso en TileMill consistió en importar todas las capas geográficas, asignar estilos visuales específicos a cada una (colores, grosores de línea, símbolos), y organizar su orden de visualización para crear una jerarquía visual clara. Finalmente, el mapa se exportó como tiles (pequeñas imágenes cuadradas en formato MBTiles), que permiten cargar el mapa de forma eficiente en navegadores web mostrando solo las secciones visibles según el nivel de zoom del usuario. Este formato de tiles es el estándar utilizado por servicios como Google Maps y OpenStreetMap, garantizando un rendimiento óptimo incluso con mapas complejos y detallados. 
+
+![Imagen de elementos en TileMill](/Documentacion/img2.png)
+  
 
 ---
 
-## Explicación de los Puntos de Elevación / Mapa de Calor  
+## Resultado final
+El mapa topográfico se generó a partir de 146 puntos de elevación (hitos geográficos) distribuidos por la región de San Ramón, Costa Rica. Estos puntos contienen información precisa de altura sobre el nivel del mar, que varía desde 145 hasta 1,742 metros. Mediante un proceso de interpolación espacial utilizando el método de Distancia Inversa Ponderada (IDW), se calcularon los valores de elevación para todas las áreas entre los puntos medidos, creando así un Modelo Digital de Elevación (DEM) continuo. 
 
-*(Pendiente de completar)*  
+El resultado es un mapa de calor de elevación, donde los colores representan diferentes rangos de altura: las zonas verdes indican tierras bajas (145-500m), los amarillos y naranjas representan elevaciones medias (500-1300m), y los tonos rojos y marrones señalan las zonas montañosas más altas (1300-1742m). Este tipo de visualización permite identificar rápidamente patrones topográficos, como valles, montañas y pendientes, facilitando análisis geográficos, planificación territorial y estudios ambientales. 
+
+A continuación, se presenta el resultado final del mapa tras su despliegue. Este permite realizar distintos niveles de zoom para explorar con mayor detalle la información geográfica del cantón de **San Ramón**.
+
+![Resultado final del mapa](/Documentacion/img3.png)
 
 ---
 
