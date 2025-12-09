@@ -71,6 +71,10 @@ A continuación, se presenta el resultado final del mapa tras su despliegue. Est
 
 [Link del Deploy ](https://sig-proyecto3.vercel.app)
 
+Debido a las limitaciones en el tamaño de subida de archivos, se adjunta el enlace al repositorio para que puedan consultarse los archivos utilizados en el desarrollo del proyecto. Además, gracias al historial de commits disponible en GitHub, es posible verificar que el proyecto fue realizado previamente a la fecha de entrega.
+
+[Link del REPOSITORIO ](https://github.com/Pamreth29/SIG_Proyecto3)
+
 ---
 
 ## Conclusiones  
